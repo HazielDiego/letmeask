@@ -1,0 +1,77 @@
+40' - SPA
+Você torna a aplicação mais flexível, usando uma notação e transação de dados globais, que podem ser acessados por qualquer aplicação.
+Também deixa o aplicativo mais rápido e pode prover ao usuário experiências melhores.
+
+48' - Firebase
+Autenticação
+Banco de Dados
+BAAS
+
+53' - React
+cd aulas
+yarn create react-app letmeask --template typescript
+
+
+55' - typescript
+Facilita o desenvolvimento ao sempre saber as propriedades de um objeto
+
+1:02' - React
+Trabalha com funções, essas funções são chamadas pelo index, mantendo assim o SPA, as funções representam os componentes da página.
+Tudo é componente
+Conceitos principais: Componente, propriedade e estado
+Contextos, Side effects, estado compartilhado
+
+Códigos
+#together
+#unidade
+#embuscadeevolução
+#legacy
+juntos no próximo nível
+
+Aula 02 1:02 minutos
+Comandos yarn
+yarn create react-app nomedoapp --template typescript
+yarn add firebase@^8.6.7      
+yarn add node-sass@^5.0.0     
+yarn start 
+yarn add react-router-dom   
+yarn add @types/react-router-dom -D
+yarn add react-modal
+yarn add @types/react-modal -D
+yarn add react-hook-form
+yarn add @hookform/resolvers
+yarn add yup
+yarn global add firebase-tools
+
+Usar Next para rodar a aplicação no lado do servidor e poder usar SEO
+
+Arrays são imutáveis, então você cria constantes para armazenar novos valores
+const array = [
+{id:1, name:'Diego', age:26},
+{id:1, name:'Diego', age:26},
+{id:1, name:'Diego', age:26},
+]
+
+const remover = array (filter (item => item.id !== 3);
+
+const editado = array.map(item => {
+if (item.id === 3){
+return {...item, name:'Diegato'};
+}else{
+return item;
+}
+})
+
+
+Responsividade:
+- Aula do Maykon Masterclass 08 no canal da RocketSeat
+Tema Dark e Light:
+- Live 04
+Versão PWA:
+- https://create-react-app.dev/docs/deployment
+Outros bancos de dados:
+- Postgre, Supabase
+StyledComponents:
+-ESLint, Prettier - Como inicio meus apps com ReactJS no canal da RocketSeat 
+GitHub:
+
